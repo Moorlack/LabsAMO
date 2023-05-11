@@ -1,0 +1,31 @@
+.classicButton {
+  background: yellow;
+  color: black;
+  border-color: black;
+  border-radius: 50%;
+  &:hover {
+    animation: animation infinite 100ms;
+  }
+}
+body {
+  color: yellow !important;
+}
+input{
+  color: yellow !important;
+  border: none !important;
+  background-color: #222333 !important;
+  &::placeholder {
+    color: yellow !important;
+  }
+}
+.cum{
+  width: 500px;
+}
+@keyframes animation {
+  0% {
+    transform: rotate(0deg) scale(1.2) ;
+  }
+  100% {
+    transform: rotate(1deg) scale(1.2) ;
+  }
+}
