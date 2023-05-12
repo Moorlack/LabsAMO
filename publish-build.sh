@@ -3,5 +3,5 @@ cd build
 
 git init
 git add -A
-git commit -m 'Pushed new app build'
-git push -f https://github.com/WhtsPoint/amo-labs.git master:build
+git commit -m 'Build app'
+git push -f https://github.com/Moorlack/LabsAMO.git master:build
