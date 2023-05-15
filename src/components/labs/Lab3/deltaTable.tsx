@@ -12,7 +12,7 @@ interface IParams {
 
 function DeltaTable({ mathFunction, nodeCount }: IParams) {
     const [x, setX] = useState<number>(1)
-    const tableValues = range(2, nodeCount).map((node) => getDelta({mathFunction, nodeCount: node, x}))
+    const tableValues = range(1, nodeCount).map((node) => getDelta({mathFunction, nodeCount: node, x}))
 
     return (<>
         <NumberInput placeholder={"X"} className={"classicInput w-25"} onChange={setX} min={a} max={b} />
