@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/LabsAMO/static/css/main.2dfca134.css",
+    "main.js": "/LabsAMO/static/js/main.ee2c6959.js",
+    "static/media/matrixvariant.png": "/LabsAMO/static/media/matrixvariant.bc0f8547138d496d1973.png",
+    "index.html": "/LabsAMO/index.html",
+    "main.2dfca134.css.map": "/LabsAMO/static/css/main.2dfca134.css.map",
+    "main.ee2c6959.js.map": "/LabsAMO/static/js/main.ee2c6959.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2dfca134.css",
+    "static/js/main.ee2c6959.js"
+  ]
+}
